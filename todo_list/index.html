@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Hello World!</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <main id="main" class="main">
+        <label for="addText">Escribe la tarea</label>
+        <input id="addText" class="addText" name="addText" type="text">
+        <button id="addTarea" class="btn_agregar" onclick="agregarTarea()">Agregar tarea</button>
+        <button id="eliminarTarea" class="btn_eliminar" onclick="eliminarTarea()">Eliminar tareas seleccionadas</button>
+        <h2>Lista de tareas</h2>
+        <ul id="list" class="list" name="list"></ul>
+    </main>
+</body>
+<script src="preload.js"></script>
+</html>

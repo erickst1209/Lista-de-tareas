@@ -1,0 +1,28 @@
+:root {
+  --color_fondo_oscuro:rgb(15, 15, 16);
+  --color_letra_oscuro:rgb(229, 229, 230);
+  --color_fondo_claro:rgb(229, 229, 230);
+  --color_letra_claro:rgb(15, 15, 16);
+}
+body{
+  background-color: var(--color_fondo_oscuro);
+  color: var(--color_letra_oscuro);
+  
+}
+.btn_agregar,.btn_eliminar{
+  border: none;
+  border-radius: none;
+  background-color: var(--color_fondo_oscuro);
+  color: var(--color_letra_oscuro);
+}
+
+.div_list{
+  display: flex;
+  gap: 10px;
+  font-size: large;
+}
+
+.tarea{
+  list-style: none;
+}
+
